@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <!--Created with Liquid XML 2014 Designer Edition (Trial) 12.2.8.5459 (http://www.liquid-technologies.com)-->
-<xs:schema xmlns:cmn="http://NamespaceTest.com/CommonTypes"
+<xs:schema xmlns:cmn="CommonTypes"
            elementFormDefault="qualified"
-           targetNamespace="http://NamespaceTest.com/CustomerTypes"
+           targetNamespace="CustomerTypes"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <!--The xs:import to CommonTypes.xsd in schema C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CustomerTypes.xsd can not be collapsed as it imports a schema in a different namespace.
 Items can only have different namespaces in different schema files, therefore it is not possible to collapse this item.-->
-  <xs:import schemaLocation="C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CommonTypes.xsd"
-             namespace="http://NamespaceTest.com/CommonTypes" />
+  <xs:import schemaLocation="C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CommonTypesFlattened.xsd"
+             namespace="CommonTypes" />
   <xs:complexType name="CustomerType">
     <xs:sequence>
       <xs:element name="Name"
