@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<xs:schema     xmlns:ord="http://NamespaceTest.com/OrderTypes" 
+<xs:schema     xmlns:ord="OrderTypes" 
                xmlns:pur="Purchase"
                xmlns:cmn="CommonTypes"
                xmlns:cust="http://NamespaceTest.com/CustomerTypes"
@@ -8,7 +8,7 @@
                elementFormDefault="qualified">
     <xs:import schemaLocation="CommonTypesFlattened.xsd" namespace="CommonTypes" />
     <xs:import schemaLocation="CustomerTypes.xsd" namespace="http://NamespaceTest.com/CustomerTypes" />
-    <xs:import schemaLocation="OrderTypes.xsd" namespace="http://NamespaceTest.com/OrderTypes" />
+    <xs:import schemaLocation="OrderTypeFlattened.xsd" namespace="OrderTypes" />
     <xs:element name="Purchase">
         <xs:complexType>
             <xs:sequence>
