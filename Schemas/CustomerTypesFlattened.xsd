@@ -4,18 +4,17 @@
            elementFormDefault="qualified"
            targetNamespace="CustomerTypes"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <!--The xs:import to CommonTypes.xsd in schema C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CustomerTypes.xsd can not be collapsed as it imports a schema in a different namespace.
-Items can only have different namespaces in different schema files, therefore it is not possible to collapse this item.-->
-  <xs:import schemaLocation="C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CommonTypesFlattened.xsd"
-             namespace="CommonTypes" />
-  <xs:complexType name="CustomerType">
-    <xs:sequence>
-      <xs:element name="Name"
-                  type="xs:string" />
-      <xs:element name="DeliveryAddress"
-                  type="cmn:AddressType" />
-      <xs:element name="BillingAddress"
-                  type="cmn:AddressType" />
-    </xs:sequence>
-  </xs:complexType>
+
+    <xs:import schemaLocation="C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CommonTypesFlattened.xsd"
+               namespace="CommonTypes" />
+    <xs:complexType name="CustomerType">
+        <xs:sequence>
+            <xs:element name="Name"
+                        type="xs:string" />
+            <xs:element name="DeliveryAddress"
+                        type="cmn:AddressType" />
+            <xs:element name="BillingAddress"
+                        type="cmn:AddressType" />
+        </xs:sequence>
+    </xs:complexType>
 </xs:schema>

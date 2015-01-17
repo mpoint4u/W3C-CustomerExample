@@ -4,8 +4,7 @@
            elementFormDefault="qualified"
            targetNamespace="OrderTypes"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <!--The xs:import to CommonTypes.xsd in schema C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\OrderType.xsd can not be collapsed as it imports a schema in a different namespace.
-Items can only have different namespaces in different schema files, therefore it is not possible to collapse this item.-->
+
   <xs:import schemaLocation="C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CommonTypesFlattened.xsd"
              namespace="CommonTypes" />
   <xs:complexType name="OrderType">
