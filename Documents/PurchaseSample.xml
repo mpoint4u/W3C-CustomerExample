@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid XML 2014 Designer Edition (Trial) 12.2.8.5459 (http://www.liquid-technologies.com) -->
+<pur:Purchase xmlns:cmn="http://NamespaceTest.com/CommonTypes" 
+              xmlns:cust="http://NamespaceTest.com/CustomerTypes" 
+              xmlns:ord="http://NamespaceTest.com/OrderTypes" 
+              xmlns:pur="http://NamespaceTest.com/Purchase" 
+              xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+              xsi:schemaLocation="http://NamespaceTest.com/Purchase C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\Main.xsd">
+    <pur:OrderDetail>
+        <ord:Item>
+            <ord:ProductName>string</ord:ProductName>
+            <ord:Quantity>-8588</ord:Quantity>
+            <ord:UnitPrice>-294.43</ord:UnitPrice>
+        </ord:Item>
+    </pur:OrderDetail>
+    <pur:PaymentMethod>Cash</pur:PaymentMethod>
+    <pur:CustomerDetails>
+        <cust:Name>string</cust:Name>
+        <cust:DeliveryAddress>
+            <cmn:Line1>string</cmn:Line1>
+            <cmn:Line2>string</cmn:Line2>
+        </cust:DeliveryAddress>
+        <cust:BillingAddress>
+            <cmn:Line1>string</cmn:Line1>
+            <cmn:Line2>string</cmn:Line2>
+        </cust:BillingAddress>
+    </pur:CustomerDetails>
+</pur:Purchase>
