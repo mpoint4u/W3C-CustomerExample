@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" targetNamespace="Purchase" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="Purchase" type="pur:PurchaseType" xmlns:pur="Purchase">
+    <xs:annotation>
+      <xs:documentation>Created with Liquid XML 2014 Designer Edition (Trial) 12.2.8.5459 (http://www.liquid-technologies.com)</xs:documentation>
+    </xs:annotation>
+  </xs:element>
+  <xs:complexType name="CustomerDetailsType">
+    <xs:sequence>
+      <xs:element ref="cus:Name" xmlns:cus="CustomerTypes"/>
+      <xs:element ref="cus:DeliveryAddress" xmlns:cus="CustomerTypes"/>
+      <xs:element ref="cus:BillingAddress" xmlns:cus="CustomerTypes"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="PurchaseType">
+    <xs:sequence>
+      <xs:element type="pur:OrderDetailType" name="OrderDetail" xmlns:pur="Purchase"/>
+      <xs:element type="xs:string" name="PaymentMethod"/>
+      <xs:element type="pur:CustomerDetailsType" name="CustomerDetails" xmlns:pur="Purchase"/>
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="OrderDetailType">
+    <xs:sequence>
+      <xs:element ref="ord:Item" maxOccurs="unbounded" minOccurs="0" xmlns:ord="OrderTypes"/>
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>
