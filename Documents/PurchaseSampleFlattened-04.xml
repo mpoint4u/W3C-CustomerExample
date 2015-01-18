@@ -13,12 +13,22 @@
 			<ord:Quantity>10000</ord:Quantity>
 			<ord:UnitPrice>9999.99</ord:UnitPrice>
 		</ord:Item>
+		<ord:Item>
+			<ord:ProductName>someotherstuff</ord:ProductName>
+			<ord:Quantity>9000</ord:Quantity>
+			<ord:UnitPrice>9999.99</ord:UnitPrice>
+		</ord:Item>
+		<ord:Item>
+			<ord:ProductName>and some more stuff</ord:ProductName>
+			<ord:Quantity>1</ord:Quantity>
+			<ord:UnitPrice>9.99</ord:UnitPrice>
+		</ord:Item>
 	</pur:OrderDetail>
 
 	<pur:PaymentMethod>VISA</pur:PaymentMethod>
 
 	<pur:CustomerDetails>
-		<cust:Name></cust:Name>
+		<cust:Name>Max Muster</cust:Name>
 		<cust:DeliveryAddress>
 			<cmn:Line1>blabla111</cmn:Line1>
 			<cmn:Line2>blabla222</cmn:Line2>
