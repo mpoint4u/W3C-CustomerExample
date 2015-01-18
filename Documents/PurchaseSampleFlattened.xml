@@ -5,7 +5,7 @@
               xmlns:ord="OrderTypes" 
               xmlns:pur="Purchase" 
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-              xsi:schemaLocation="Purchase C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\MainFlattened.xsd">
+              xsi:schemaLocation="Purchase MainFlattened.xsd">
     <pur:OrderDetail>
         <ord:Item>
             <ord:ProductName>string</ord:ProductName>
@@ -22,6 +22,11 @@
             <ord:Quantity>-1745</ord:Quantity>
             <ord:UnitPrice>-4449.73</ord:UnitPrice>
         </ord:Item>
+		<ord:Item>
+			<ord:ProductName>more testing</ord:ProductName>
+			<ord:Quantity>1</ord:Quantity>
+			<ord:UnitPrice>0.99</ord:UnitPrice>
+		</ord:Item>
     </pur:OrderDetail>
     <pur:PaymentMethod>MasterCard</pur:PaymentMethod>
     <pur:CustomerDetails>
