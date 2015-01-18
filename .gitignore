@@ -1,3 +1,5 @@
 *.iws
 *.lxsproj
 *.lxsopt
+.idea/*
+*.iml
