@@ -3,25 +3,25 @@
 <xs:schema elementFormDefault="qualified"
            targetNamespace="CommonTypes"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
-  <xs:complexType name="AddressType">
-    <xs:sequence>
-      <xs:element name="Line1"
-                  type="xs:string" />
-      <xs:element name="Line2"
-                  type="xs:string" />
-    </xs:sequence>
-  </xs:complexType>
-  <xs:simpleType name="PriceType">
-    <xs:restriction base="xs:decimal">
-      <xs:fractionDigits value="2" />
-    </xs:restriction>
-  </xs:simpleType>
-  <xs:simpleType name="PaymentMethodType">
-    <xs:restriction base="xs:string">
-      <xs:enumeration value="VISA" />
-      <xs:enumeration value="MasterCard" />
-      <xs:enumeration value="Cash" />
-      <xs:enumeration value="Amex" />
-    </xs:restriction>
-  </xs:simpleType>
+    <xs:complexType name="AddressType">
+        <xs:sequence>
+            <xs:element name="Line1"
+                        type="xs:string" />
+            <xs:element name="Line2"
+                        type="xs:string" />
+        </xs:sequence>
+    </xs:complexType>
+    <xs:simpleType name="PriceType">
+        <xs:restriction base="xs:decimal">
+            <xs:fractionDigits value="2" />
+        </xs:restriction>
+    </xs:simpleType>
+    <xs:simpleType name="PaymentMethodType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="VISA" />
+            <xs:enumeration value="MasterCard" />
+            <xs:enumeration value="Cash" />
+            <xs:enumeration value="Amex" />
+        </xs:restriction>
+    </xs:simpleType>
 </xs:schema>
