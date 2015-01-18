@@ -5,7 +5,7 @@
               xmlns:ord="OrderTypes" 
               xmlns:pur="Purchase" 
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-              xsi:schemaLocation="Purchase ../Schemas/MainFlattened.xsd">
+              xsi:schemaLocation="Purchase MainFlattened.xsd">
 
     <pur:OrderDetail>
         <ord:Item>
