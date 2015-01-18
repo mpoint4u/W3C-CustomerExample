@@ -5,7 +5,7 @@
            targetNamespace="CustomerTypes"
            xmlns:xs="http://www.w3.org/2001/XMLSchema">
 
-    <xs:import schemaLocation="C:\Users\marcus\Documents\GitHub\XML-TUTORIALS\CustomerExampleW3C\Schemas\CommonTypesFlattened.xsd"
+    <xs:import schemaLocation="CommonTypesFlattened.xsd"
                namespace="CommonTypes" />
     <xs:complexType name="CustomerType">
         <xs:sequence>
