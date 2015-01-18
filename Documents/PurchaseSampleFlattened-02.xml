@@ -5,37 +5,28 @@
               xmlns:ord="OrderTypes" 
               xmlns:pur="Purchase" 
               xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-              xsi:schemaLocation="Purchase ../Schemas/MainFlattened.xsd">
-    
+              xsi:schemaLocation="Purchase file:///C:/Users/marcus/Documents/GitHub/XML-TUTORIALS/CustomerExampleW3C/Schemas/MainFlattened.xsd">
+
     <pur:OrderDetail>
         <ord:Item>
-            <ord:ProductName>Something</ord:ProductName>
-            <ord:Quantity>100</ord:Quantity>
-            <ord:UnitPrice>99.50</ord:UnitPrice>
-        </ord:Item>
-        <ord:Item>
-            <ord:ProductName>AnotherThing</ord:ProductName>
-            <ord:Quantity>200</ord:Quantity>
-            <ord:UnitPrice>199.50</ord:UnitPrice>
-        </ord:Item>
-        <ord:Item>
-            <ord:ProductName>ThirdThing</ord:ProductName>
-            <ord:Quantity>300</ord:Quantity>
-            <ord:UnitPrice>299.50</ord:UnitPrice>
+            <ord:ProductName>blabla</ord:ProductName>
+            <ord:Quantity>1000</ord:Quantity>
+            <ord:UnitPrice>1000.00</ord:UnitPrice>
         </ord:Item>
     </pur:OrderDetail>
 
     <pur:PaymentMethod>MasterCard</pur:PaymentMethod>
 
     <pur:CustomerDetails>
-        <cust:Name>Marcus</cust:Name>
+        <cust:Name>Maxx</cust:Name>
         <cust:DeliveryAddress>
-            <cmn:Line1>Romena</cmn:Line1>
-            <cmn:Line2>Rollana</cmn:Line2>
+            <cmn:Line1>bla1</cmn:Line1>
+            <cmn:Line2>bla2</cmn:Line2>
         </cust:DeliveryAddress>
         <cust:BillingAddress>
-            <cmn:Line1>Klotchkovskaja</cmn:Line1>
-            <cmn:Line2>311</cmn:Line2>
+            <cmn:Line1>bla3</cmn:Line1>
+            <cmn:Line2>bla4</cmn:Line2>
         </cust:BillingAddress>
     </pur:CustomerDetails>
+    
 </pur:Purchase>

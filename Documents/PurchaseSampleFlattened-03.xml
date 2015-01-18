@@ -13,6 +13,11 @@
             <ord:Quantity>500</ord:Quantity>
             <ord:UnitPrice>499.90</ord:UnitPrice>
         </ord:Item>
+        <ord:Item>
+            <ord:ProductName>KitKat</ord:ProductName>
+            <ord:Quantity>600</ord:Quantity>
+            <ord:UnitPrice>599.00</ord:UnitPrice>
+        </ord:Item>
     </pur:OrderDetail>
 
     <pur:PaymentMethod>MasterCard</pur:PaymentMethod>
