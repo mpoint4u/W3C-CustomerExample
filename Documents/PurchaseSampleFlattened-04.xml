@@ -23,6 +23,11 @@
 			<ord:Quantity>1</ord:Quantity>
 			<ord:UnitPrice>9.99</ord:UnitPrice>
 		</ord:Item>
+		<ord:Item>
+			<ord:ProductName>one more</ord:ProductName>
+			<ord:Quantity>20</ord:Quantity>
+			<ord:UnitPrice>19.90</ord:UnitPrice>
+		</ord:Item>
 	</pur:OrderDetail>
 
 	<pur:PaymentMethod>VISA</pur:PaymentMethod>
